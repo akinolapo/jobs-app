@@ -5,7 +5,5 @@ const Home = () =>{
     <View>
         <Text>Home</Text>
     </View>
-    )
+    
 }
-
-export default Home;
