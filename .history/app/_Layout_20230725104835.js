@@ -4,4 +4,4 @@ const Layout = () => {
     return <Stack/>
 }
 
-export default Layout
+export de
