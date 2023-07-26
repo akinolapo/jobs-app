@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { View, ScrollView, SafeAreaView, Text } from "react-native";
-import { Stack, useRouter } from "expo-router";
+import { View, scr Text } from "react-native";
 
 const Home = () =>{
     return (
