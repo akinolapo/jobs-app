@@ -28,10 +28,8 @@ const Home = () =>{
                     flex:1,
                     padding: SIZES.medium
                 }}>
-                    <Welcome/>
-                    <Popularjobs/>
-                    <Nearbyjobs/>
-            </View>
+                    
+                </View>
         </ScrollView>
     </SafeAreaView>
     )
