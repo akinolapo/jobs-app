@@ -23,8 +23,6 @@ const Welcome = () => {
       <View style={styles.container}>
         <View style={styles.searchWrapper}>
           <TextInput
-            style={styles.searchInput}
-          />
         </View>
       </View>
     </View>

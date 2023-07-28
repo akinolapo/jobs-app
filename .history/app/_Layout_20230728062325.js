@@ -14,11 +14,10 @@ const Layout = () => {
 
     const onLayoutRootView = useCallback(async() => {
         if(fontsLoaded){
-            await SplashScreen.hideAsync();
+            await SplashScreen.h
         }
-    }, [fontsLoaded])
-    if(!fontsLoaded) return null;
-    return <Stack onLayout={onLayoutRootView}/>;
+    })
+    return <Stack/>
 }
 
 export default Layout

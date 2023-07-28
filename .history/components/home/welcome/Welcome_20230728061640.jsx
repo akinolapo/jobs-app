@@ -21,11 +21,7 @@ const Welcome = () => {
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
       <View style={styles.container}>
-        <View style={styles.searchWrapper}>
-          <TextInput
-            style={styles.searchInput}
-          />
-        </View>
+        <View style={styles.se}></View>
       </View>
     </View>
   )
