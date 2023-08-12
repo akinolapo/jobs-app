@@ -26,21 +26,9 @@ const Welcome = () => {
             style={styles.searchInput}
             value=""
             onChange={() =>{}}
-            placeholder="What are you looking for?"
+            placeholder=""
           />
         </View>
-
-        <TouchableOpacity style={styles.searchBtn} onPress={() =>{}}>
-          <Image
-            source={icons.search}
-            resizeMode='contain'
-            style={styles.searchBtnImage}
-          />
-        </TouchableOpacity>
-
-      </View>
-      <View style={styles.tabsContainer}>
-        <FlatList/>
       </View>
     </View>
   )

@@ -30,14 +30,8 @@ const Welcome = () => {
           />
         </View>
 
-        <TouchableOpacity style={styles.searchBtn} onPress={() =>{}}>
-          <Image
-            source={icons.search}
-            resizeMode='contain'
-            style={styles.searchBtnImage}
-          />
-        </TouchableOpacity>
-
+        <TouchableOpacity></TouchableOpacity>
+        
       </View>
       <View style={styles.tabsContainer}>
         <FlatList/>
