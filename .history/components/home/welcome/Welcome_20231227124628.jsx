@@ -20,7 +20,7 @@ const Welcome = () => {
         <Text style={styles.userName}>Hello Peace</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
-      <View style={styles.searchContainer}>
+      <View style={styles.container}>
         <View style={styles.searchWrapper}>
           <TextInput
             style={styles.searchInput}
@@ -30,7 +30,7 @@ const Welcome = () => {
           />
         </View>
 
-        <TouchableOpacity style={styles.searchBtn} onPress={() =>{}}>
+        <TouchableOpacity style={styles} onPress={() =>{}}>
           <Image
             source={icons.search}
             resizeMode='contain'
