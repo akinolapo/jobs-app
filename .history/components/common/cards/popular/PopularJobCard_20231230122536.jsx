@@ -23,7 +23,7 @@ const PopularJobCard = () => {
             {item.job_title}
           </Text>
           <Text style={styles.location}>
-            {item.job_country}
+            {item.job_co}
           </Text>
         </View>
     </TouchableOpacity>
