@@ -12,7 +12,7 @@ const Popularjobs = () => {
 
   const { data, isLoading, error } = useFetch('search', {
     query: 'React developer',
-    num_pages: "1"
+    num_page: 1
   })
 
  
@@ -33,7 +33,7 @@ const Popularjobs = () => {
           <Text>Something went wrong</Text>
         ) :
           <FlatList
-            data={data}
+            data={item}
             renderItem={({item}) => (
               <PopularJobCard
                 item = {item}
