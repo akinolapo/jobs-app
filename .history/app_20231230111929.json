@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "jobs-app",
+    "slug": "jobs-app"
+  },
+  "extra": {
+    "RAPID_API_KEY": "your_api_key_here"
+  }
+}
